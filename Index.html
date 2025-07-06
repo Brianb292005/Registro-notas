@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Calificaciones</title>
+    <link rel="stylesheet" href="CSS/Propiedades.css">
+</head>
+
+<body>
+    <h1>Bienvenido al Sistema de Notas</h1>
+
+    <a href="#registroNotas">Bienvenido al registro de notas</a>
+
+
+    <section id="registroNotas">
+        <h2>Registro de Notas de Estudiantes</h2>
+
+        <form id="formularioEstudiante">
+            <input type="text" id="nombre" placeholder="Nombre">
+            <input type="text" id="apellido" placeholder="Apellido">
+            <input type="text" id="matricula" placeholder="Matrícula">
+            <input type="number" id="nota" placeholder="Nota final">
+            <button type="submit">Agregar Estudiante</button>
+        </form>
+
+  
+        <label for="buscarInput">Search Est. Activo:</label>
+        <input type="text" id="buscarInput" placeholder="Nombre, Apellido o Matrícula">
+
+        <table id="tablaEstudiantes">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Matrícula</th>
+                    <th>Nota</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+            
+            </tbody>
+        </table>
+    </section>
+
+    <script src="Js/Registro.js"></script>
+</body>
+
+</html>
